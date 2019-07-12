@@ -22,7 +22,7 @@
 	//建立Statement物件
 	Statement st=conn.createStatement();
 	//sql語句，新增帳號及密碼進DB
-	String sql="INSERT INTO login_inf (account,password) VALUE (" + into_account + "," + into_password + ");";
+	String sql="INSERT INTO login_inf (account,password) VALUE('" + into_account + "','" + into_password + "')";
 	System.out.print(sql);
 
 	try{

@@ -20,7 +20,8 @@
   ${error}
 	</form></br>
 	
-	<input type ="button" onclick="javascript:location.href='http://localhost:8080/ThisWeb/registered.jsp'" value="註冊"></input>
+	<input type ="button" onclick="javascript:location.href='http://localhost:8080/ThisWeb/registered.jsp'" value="註冊"/></br>
+	預設帳號密碼
 
 	<% 
 		DBControllers dbc = new DBControllers();
